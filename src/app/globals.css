@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@layer components {
+  .btn {
+    @apply bg-blue-600 hover:bg-blue-500 text-white font-medium px-4 py-2 rounded-lg text-sm transition-colors;
+  }
+  .btn-red {
+    @apply bg-red-600 hover:bg-red-500;
+  }
+  .btn-sm {
+    @apply bg-gray-700 hover:bg-gray-600 text-white px-3 py-1.5 rounded-lg text-xs transition-colors cursor-pointer;
+  }
+}
